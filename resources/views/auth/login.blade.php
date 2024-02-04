@@ -196,21 +196,21 @@
     <div class="header">
         <div class="row">
             <div class="col-md-2 logo-side">
-                <img class="logo" src="{{ asset('asset/img/logo.jpg') }}" alt="" srcset="">
+                {{-- <img class="logo" src="{{ asset('asset/img/logo.jpg') }}" alt="" srcset=""> --}}
             </div>
             <div class="col-md-8 text-center">
                 <h3 class="title-1">The United Republic of Tanzania</h3>
-                <h3 class="title-2">Welcome to TIRDO Asset Management Information System</h3>
+                <h3 class="title-2">Welcome to DIT Asset Management Information System</h3>
             </div>
         </div>
     </div>
   <div class="main shadow">
     <div class="row">
         <div class="col-md-6 img">
-            <img class="side-img" src="{{ asset('asset/img/tirdo.png') }}" alt="" srcset="">
+            <img class="side-img" src="{{ asset('asset/img/DIT LOG.jpg') }}" alt="" srcset="">
         </div>
         <div class="col-md-6">
-            <p class="sign" align="center">TAMIS</p>
+            <p class="sign" align="center">DAMIS</p>
             <form class="form1" action="{{ route('login')}}" method="POST">
                 @csrf
             @error('email')

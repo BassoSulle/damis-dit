@@ -65,7 +65,7 @@
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <!-- Header top area start-->
+    <!-- Headerf top area start-->
     <div class="wrapper-pro">
         <div class="left-sidebar-pro">
             <nav id="sidebar">
@@ -81,19 +81,19 @@
                             <a href="{{ route('admin.dashboard') }}" role="button" aria-expanded="false"><i
                                     class="fa big-icon fa-dashboard"></i> <span class="mini-dn"> Dashboard</span> </a>
                         </li>
-                        <li>
+                        {{-- <li>
                             <a href="{{ route('admin.directorate') }}" role="button" aria-expanded="false"><i
                                     class="fa big-icon fa-home"></i> <span class="mini-dn"> Directorates</span> </a>
-                        </li>
+                        </li> --}}
                         <li>
                             <a href="{{ route('admin.department') }}" role="button" aria-expanded="false"><i
                                     class="fa big-icon fa-file-archive-o"></i> <span class="mini-dn">Departments</span>
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('admin.department_section') }}" role="button" aria-expanded="false"><i
+                            {{-- <a href="{{ route('admin.department_section') }}" role="button" aria-expanded="false"><i
                                     class="fa big-icon fa-file-archive-o"></i> <span class="mini-dn">Sections</span>
-                            </a>
+                            </a> --}}
                             <a href="{{ route('admin.buildings') }}" role="button" aria-expanded="false"><i
                                     class="fa big-icon fa-file-archive-o"></i> <span class="mini-dn">Buildings</span>
                             </a>
@@ -118,27 +118,27 @@
                         <li>
                             <a href=" {{route('admin.assettype')}}" role="button" aria-expanded="false"><i class="fa big-icon fa-folder-open"></i> <span class="mini-dn">Asset Categorys</span> </a>
                         </li>
-                        <li>
+                        {{-- <li>
                             <a href=" {{route('admin.assetclass')}}" role="button" aria-expanded="false"><i class="fa big-icon fa-folder-open"></i> <span class="mini-dn">Class</span> </a>
-                        </li>
+                        </li> --}}
                         <li>
                             <a href=" {{ route('admin.condition') }}" role="button" aria-expanded="false"><i
                                     class="fa big-icon fa-folder-open"></i> <span class="mini-dn">Condition</span>
                             </a>
                         </li>
-                        <li>
+                        {{-- <li>
                             <a href="{{ route('admin.transfer') }}" role="button" aria-expanded="false"><i
                                     class="fa big-icon fa-folder-open"></i> <span class="mini-dn">Transfers</span>
                             </a>
-                        </li>
+                        </li> --}}
                         <li>
                             <a href="{{ route('admin.request') }}" role="button" aria-expanded="false"><i
                                     class="fa big-icon fa-list-alt"></i> <span class="mini-dn">Requests</span> </a>
                         </li>
-                        <li>
+                        {{-- <li>
                             <a href="{{ route('admin.user') }}" role="button" aria-expanded="false"><i
                                     class="fa big-icon fa-history"></i> <span class="mini-dn">User</span> </a>
-                        </li>
+                        </li> --}}
 
 
                     </ul>
